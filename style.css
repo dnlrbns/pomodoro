@@ -1,9 +1,32 @@
+html {
+    /* body will set it's height based on its parent, which is html */
+    height: 100%;
+  
+    /* set full width as well */
+    width: 100%;
+  }
+
 table {
     text-align: center;
     font-size: 50vh;
-    color: grey;
+    color: hsl(0, 0%, 4%);
 }
 
 body {
-    background-color: black
+    background-color: #000000
+}
+
+.button {
+    background-color:hsl(0, 0%, 2%);
+    border: none;
+    color: hsl(0, 0%, 10%);
+    text-align: center;
+    font-size: 10vh;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
