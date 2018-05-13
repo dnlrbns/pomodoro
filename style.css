@@ -1,15 +1,8 @@
-html {
-    /* body will set it's height based on its parent, which is html */
-    height: 100%;
-  
-    /* set full width as well */
-    width: 100%;
-  }
-
 table {
     text-align: center;
-    font-size: 50vh;
-    color: hsl(0, 0%, 4%);
+    font-size: 19vw;
+    color: hsl(0, 0%, 8%);
+    font-family: 'Courier New', Courier, monospace
 }
 
 body {
@@ -17,15 +10,15 @@ body {
 }
 
 .button {
-    background-color:hsl(0, 0%, 2%);
+    background-color:hsl(0, 0%, 4%);
     border: none;
     color: hsl(0, 0%, 10%);
     text-align: center;
     font-size: 10vh;
     cursor: pointer;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 0%;
+    left: 0%;
     width: 100vw;
     height: 15vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 

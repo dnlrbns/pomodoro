@@ -1,7 +1,7 @@
 var starttime = 0;
 var check;
 var onemin = 1000*60;
-var grey = "hsl(0, 0%, 4%)";
+var grey = "hsl(0, 0%, 8%)";
 var black = "hsl(0, 0%, 0%)";
 
 function changedot() {
