@@ -45,5 +45,5 @@ function changedot() {
 function setStartTime() {
     var d = new Date();
     starttime = d.getTime();
-    check = setInterval(changedot, 10);
+    check = setInterval(changedot, 1000);
 }
