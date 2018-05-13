@@ -45,6 +45,6 @@ function changedot() {
 function setStartTime() {
     var d = new Date();
     starttime = d.getTime();
-    check = setInterval(changedot, 10);
+    check = setInterval(changedot, 5000);
     document.getElementById("startbutton").style.visibility = "hidden";
 }
