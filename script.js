@@ -8,6 +8,7 @@ function changedot() {
     if (n > (starttime + (onemin * 30))) {
         document.getElementById("dot5").style.color = "grey";
         document.body.style.backgroundColor = "black";
+        setStartTime();
     }
     else if (n > (starttime + (onemin * 29))) {
         document.getElementById("dot4").style.color = "grey";
@@ -41,7 +42,7 @@ function changedot() {
 
 }
 
-function myFunction() {
+function setStartTime() {
     var d = new Date();
     starttime = d.getTime();
     check = setInterval(changedot, 10);
