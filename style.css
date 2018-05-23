@@ -1,6 +1,6 @@
 table {
     text-align: center;
-    font-size: 10vw;
+    font-size: 14vw;
     color: hsl(0, 0%, 20%);
     font-family: 'Courier New', Courier, monospace
 }
@@ -23,6 +23,6 @@ body {
     height: 15vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
-th {
+td {
     height: 25vh;
 }
