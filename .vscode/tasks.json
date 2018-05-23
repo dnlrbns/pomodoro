@@ -1,0 +1,7 @@
+{
+	"version": "0.1.0",	
+	"command": "start",
+	"showOutput": "silent",	
+	"isShellCommand": true,	
+	 "args": ["file:///${file}"]
+}

@@ -1,7 +1,7 @@
 table {
     text-align: center;
-    font-size: 19vw;
-    color: hsl(0, 0%, 8%);
+    font-size: 10vw;
+    color: hsl(0, 0%, 20%);
     font-family: 'Courier New', Courier, monospace
 }
 
@@ -10,9 +10,9 @@ body {
 }
 
 .button {
-    background-color:hsl(0, 0%, 4%);
+    background-color:hsl(0, 0%, 10%);
     border: none;
-    color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 20%);
     text-align: center;
     font-size: 10vh;
     cursor: pointer;
@@ -22,4 +22,7 @@ body {
     width: 100vw;
     height: 15vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+th {
+    height: 25vh;
 }
