@@ -1,7 +1,7 @@
 var starttime = 0;
 var check;
 var onemin = 1000*60;
-var grey = "hsl(0, 0%, 15%)";
+var grey = "hsl(0, 0%, 20%)";
 var black = "hsl(0, 0%, 0%)";
 
 function changedot() {
@@ -46,5 +46,5 @@ function setStartTime() {
     var d = new Date();
     starttime = d.getTime();
     check = setInterval(changedot, 5000);
-    document.getElementById("startbutton").style.visibility = "hidden";
+    document.getElementById("startbutton").style.visibility = "hidden"; 
 }
