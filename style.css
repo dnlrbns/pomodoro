@@ -24,5 +24,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 td {
-    height: 75vh;
+    height: 75vh;    
+    padding: 5vw;
 }
