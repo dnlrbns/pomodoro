@@ -1,6 +1,6 @@
 var starttime = 0;
 var check;
-var onemin = 1000*60;
+var onemin = 200*60;
 var grey = "hsl(0, 0%, 60%)";
 var black = "hsl(0, 0%, 0%)";
 
