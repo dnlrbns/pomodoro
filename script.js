@@ -4,6 +4,11 @@ var onemin = 1000*60;
 var grey = "hsl(0, 0%, 60%)";
 var black = "hsl(0, 0%, 0%)";
 
+function gettimefromURL(){
+	myURL = window.location.href;
+	document.getElementById("testlocation").innerHTML = myURL;
+}
+
 function changedot() {
     var d = new Date();
     var n = d.getTime();
@@ -46,5 +51,6 @@ function setStartTime() {
     var d = new Date();
     starttime = d.getTime();
     check = setInterval(changedot, 5000);
+    gettimefromURL();
     document.getElementById("startbutton").style.visibility = "hidden"; 
 }
